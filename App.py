@@ -61,7 +61,7 @@ class Application:
 
     def load_image(self):
         """Permite o usuário selecionar e testar a imagem."""
-        model_path = "D:/Universidade/Projetos/AI/models/water_earth_model.pkl"
+        model_path = "models/water_earth_model.pkl"
         try:
             model = load_model(model_path)
         except FileNotFoundError as e:

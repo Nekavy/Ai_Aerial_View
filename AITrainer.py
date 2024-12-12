@@ -8,9 +8,9 @@ import joblib  # Para salvar o modelo
 
 def train_ai_model():
     """Treina o modelo de IA para distinguir água de terra."""
-    image_folder = "D:/Universidade/Projetos/AI/ImgWater"
-    mask_folder = "D:/Universidade/Projetos/AI/ImgWaterMask"
-    model_path = "D:/Universidade/Projetos/AI/models/water_earth_model.pkl"
+    image_folder = "ImgWater"
+    mask_folder = "ImgWaterMask"
+    model_path = "models/water_earth_model.pkl"
 
     images, labels = [], []
 

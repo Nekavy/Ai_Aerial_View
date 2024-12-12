@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import joblib  # Para carregar o modelo
 
-def load_model(model_path="D:/Universidade/Projetos/AI/models/water_earth_model.pkl"):
+def load_model(model_path="models/water_earth_model.pkl"):
     """Carrega o modelo treinado."""
     if not os.path.exists(model_path):
         raise FileNotFoundError(f"Modelo não encontrado em {model_path}. Por favor, treine o modelo primeiro.")
